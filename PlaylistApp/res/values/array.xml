@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movie_genres">
+        <item >All</item>
+        <item ><![CDATA[Action & Adventure]]></item>
+        <item ><![CDATA[Animation & Cartoons]]></item>
+        <item >Classics</item>
+        <item >Comedy</item>
+        <item >Crime</item>
+        <item >Drama</item>
+        <item ><![CDATA[Documentary & Biography]]></item>
+        <item >Family</item>
+        <item >Foreign</item>
+        <item >Horror</item>
+        <item ><![CDATA[Mystery & Suspense]]></item>
+        <item >Romance</item>
+        <item >Science Fiction</item>
+        <item >Sports</item>      
+    </string-array>
+    <string-array  name="movie_genre_code">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+        <item >10</item>
+        <item >11</item>
+        <item >12</item>
+        <item >13</item>
+        <item >15</item>        
+    </string-array>
+</resources> 
+

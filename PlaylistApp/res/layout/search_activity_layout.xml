@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp" >
+
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edt_search1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/btn_search1"
+                android:background="@drawable/search_box_layer"
+                android:ems="10"
+                android:layout_alignBottom="@+id/btn_search1"
+                android:hint="General Text Search"
+                android:singleLine="true"
+                android:paddingLeft="5dp"
+                >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/btn_search1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/search_btn_selector"
+                android:text=""
+                android:src="@drawable/ic_search"
+                android:scaleType="fitCenter"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/seprator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/linearlayout"
+        android:background="#404040" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_load_more"
+        android:layout_below="@+id/seprator"
+        android:layout_centerHorizontal="true"
+        layout="@layout/listview" />
+
+    <Button
+        android:id="@+id/btn_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Load More"
+        android:visibility="gone"
+        android:background="@drawable/search_btn_selector"/>
+
+</RelativeLayout>

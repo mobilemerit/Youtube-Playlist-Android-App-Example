@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cartoons Clips</string>
+    <string name="admob_id">a152d910c4acb46</string>
+    <string name="language">en</string>
+    
+  	
+  	<string name="ratethisapp_msg">If you like this app.Please take a moment to rate this app.It would\'t take more than a minute.\nEnjoy!</string>
+    <string name="ratethisapp_title">Rate this App.</string>
+    
+
+</resources>
