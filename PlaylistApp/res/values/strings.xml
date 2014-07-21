@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Cartoons Clips</string>
+    <string name="app_name">Playlist Demo</string>
     <string name="admob_id">a152d910c4acb46</string>
     <string name="language">en</string>
     
